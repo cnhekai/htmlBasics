@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Cursive";
+}
+body{
+    background-color:rgb(222,222,222);
+    min-width: 900px;
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51,51,51);
+}
+#nav>h1{
+    display: inline-block;
+    height: 60px;
+    color: #eeeeee;
+    line-height:60px;
+}
+#nav>ul{
+    float: right;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#nav>ul>li{
+    display: block;
+    float:left;
+    width: 100px;
+    height: 60px;
+    line-height:60px;
+}
+#nav>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+#nav>ul>li>a:hover{
+    color: #8b8b8b;
+}
+
+.article{
+    background-color: white;
+    line-height: 30px;
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow:2px 2px 1px #777777;
+}
+.article>h2{
+    line-height: 50px;
+}
+.article>h3{
+    line-height: 40px;
+    color: #888888;
+}
+.article>span{
+    line-height: 35px;
+    color: #aaaaaa;
+}
+.article>p{
+    display: block;
+    text-indent: 33px;
+    padding: 10px 0px;
+}
+.article>ul{
+    margin-left:20px;
+}
+.article>ul>li{
+    list-style-type:none;
+}
+.article>ol{
+    padding: 10px 40px;
+    font-weight:bold;
+}
+.article>table{
+    border:1px #aaaaaa solid;
+    width:100%;
+    border-collapse:collapse;
+    text-indent: 10px;
+}
+.article>table>thead tr,th{
+    border:1px #aaaaaa solid;
+    background-color: black;
+    text-align:left;
+    color:white;
+}
+.article>table>tbody tr,td{
+    border:1px #aaaaaa solid;
+}
+.article>table>tbody tr:last-child{
+    background-color: #aaaaaa;
+    font-weight:bold;
+}
+dl{
+    background-color: white;
+    line-height: 30px;
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow:2px 2px 1px #777777;
+}
+dd{
+    border:1px #999999 solid;
+    width:200px;
+    height:200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+dd>img{
+    width: 80%;
+}
+
+#myForm{
+    width: 500px;
+    background-color: #999999;
+    line-height: 40px;
+    margin: 20px auto;
+    border:1px #8f7a66 solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    float: right;
+}
+
+#myForm>h2{
+    line-height: 50px;
+    text-indent: 10px;
+}
+#myForm div{
+    width: 420px;
+    line-height: 40px;
+    margin-top:10px;
+}
+#myForm>div span{
+    display: block;
+    float:left;
+    text-align: right;
+    width: 150px;
+    height:40px;
+}
+#myForm>div input[type="text"],input[type="password"]{
+    display: block;
+    text-align: left;
+    width: 250px;
+    height: 30px;
+    background-color: #dddddd;
+}
+#myForm textarea{
+    width: 250px;
+    height: 100px;
+    background-color: #dddddd;
+}
+#myForm select{
+    width: 250px;
+    height: 30px;
+    line-height: 40px;
+    background-color: #dddddd;
+}
+#myForm input[type="submit"]{
+    margin:0 auto 20px 180px;
+    border-radius: 2px;
+    height: 40px;
+    width: 100px;
+}
+#main{
+    margin-right: 520px;
+    min-width: 360px;
+}
